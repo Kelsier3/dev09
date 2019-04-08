@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>DEV09</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <h1>Elderflower</h1>
+<div id="content">
+  <div id="greeting" class="message">Elderflower Sign Services!</div>
+  <table>
+    <tr>
+      <td>Custom sign: </td>
+      <td id="userSign">
+        <input id="userSignInput" type="text"></input>
+      </td>
+    </tr>
+    <tr>
+      <td>Update Font?</td>
+      <td><input id="userFontInput" type="checkbox">(+$1 per tile)</input>
+      </td>
+    </tr>
+    <tr>
+      <td>Full Color?</td>
+      <td><input id="userColorInput" type="checkbox">(+$2 per tile)</input>
+      </td>
+    </tr>
+    <tr>
+      <td>Total tiles: </td>
+      <td id="tiles"></td>
+    </tr>
+    <tr>
+      <td>Subtotal: </td>
+      <td id="subTotal">$</td>
+    </tr>
+    <tr>
+      <td>Shipping: </td>
+      <td id="shipping">$</td>
+    </tr>
+    <tr>
+      <td>Grand total: </td>
+      <td id="grandTotal">$</td>
+    </tr>
+  </table>
+  <a id="resetButton" href="#" class="action">Buy</a>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
